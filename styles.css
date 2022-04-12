@@ -1,0 +1,33 @@
+* {
+  font-family: 'Trebuchet MS';
+  line-height: 1.5;
+  letter-spacing: 1px;
+}
+
+h1 {
+  color: #133753;
+  text-align: center;
+}
+
+td, th {
+  padding: 5px;
+}
+
+th {
+  background-color: #133753;
+  color: #FFF;
+}
+
+tr:nth-child(even) {
+  background-color: #CDE2F4;
+}
+
+tr:nth-child(odd) {
+  background-color: #69A9DD;
+}
+
+.code {
+  font-family: Courier;
+  background-color: #FFF;
+  font-weight: bold;
+}
